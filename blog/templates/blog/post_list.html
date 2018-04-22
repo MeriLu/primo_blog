@@ -7,7 +7,9 @@
         <div>
             <h1><a href="">Benvenuto nel mio Blog</a></h1>
         </div>
-        {% for post in posts %}
+
+        {{ posts }}
+{% for post in posts %}
             <div>
                 <p>published: {{ post.published_date }}</p>
                 <h1><a href="">{{ post.title }}</a></h1>
