@@ -25,7 +25,7 @@ SECRET_KEY = 'veg_we2*pek(t_8hcgcp=a4glenjp$e@xb!73=*v*v1s@7tba3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['marialauracampoleoni.pythonanywhere.com']
 
 
 # Application definition
